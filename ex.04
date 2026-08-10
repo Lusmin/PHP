@@ -1,0 +1,10 @@
+<?php
+
+$num1 = readline("Digite um número: ");
+$num2 = readline("Digite um número: ");
+
+$soma = $num2 + $num1;
+
+echo "A soma dos números ", $num1, " e ", $num2, " é " . $soma;
+
+?>
