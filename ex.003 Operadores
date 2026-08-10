@@ -1,0 +1,12 @@
+<?php
+
+$val1 = "10";
+$val2 = 10 ;
+
+$igSimples = $val1 == $val2;
+$igIdentica = $val1 === $val2;
+
+var_dump($igSimples);
+var_dump($igIdentica);
+
+?>
