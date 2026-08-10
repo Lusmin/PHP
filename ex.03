@@ -1,0 +1,7 @@
+<?php
+
+$nomeUsuario = readline("Digite seu nome: " );
+
+echo("Seja bem-vindo(a) , $nomeUsuario");
+
+?>
