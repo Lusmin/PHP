@@ -1,0 +1,7 @@
+<?php
+
+$nome = "Lusmin";
+
+echo "Olá $nome, seja bem-vindo";
+
+?>
