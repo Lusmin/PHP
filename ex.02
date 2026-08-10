@@ -1,0 +1,13 @@
+<?php
+
+$nome = "Emily Moraes Nascimento";
+$idade = 17;
+$altura = 1.70;
+$estuda = true;
+
+echo("Nome: $nome \n");
+echo("Idade: $idade \n");
+echo("Altura: $altura\n");
+echo("É estudante ou não?: $estuda");
+
+?>
