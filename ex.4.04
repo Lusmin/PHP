@@ -1,0 +1,12 @@
+<?php 
+
+function calcularDesconto ($Vprodut , $descont =10) {
+    $valorFinal = $Vprodut - ($Vprodut * $descont / 100);
+    
+    return $valorFinal;
+}
+
+echo(calcularDesconto(100) . "\n");
+echo(calcularDesconto(100, 20));
+
+?>
