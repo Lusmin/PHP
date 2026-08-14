@@ -1,0 +1,8 @@
+<?php 
+
+function saudarUsuário ( $nome) {
+    echo("Olá, $nome! Seja bem-vindo ao curso de PHP ");
+}
+
+saudarUsuário(readline("Digite o nome do usuário: "));
+?>
