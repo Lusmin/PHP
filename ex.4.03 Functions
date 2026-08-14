@@ -1,0 +1,15 @@
+<?php 
+
+function ehPar ($numero) {
+    if ($numero % 2 == 0) {
+        
+        return true;
+    }
+    else {
+        
+        return false;
+    }
+}
+
+var_dump(ehPar(readline("Digite o número: ")))
+?>
