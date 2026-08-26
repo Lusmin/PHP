@@ -1,0 +1,27 @@
+<?php
+
+class Lampada {
+
+	private bool $ligada = false;
+
+	public function ligar() {
+		$this-> ligada == true;
+	}
+	public function desligar() {
+		$this-> ligada == false;
+	}
+	public function observar() {
+		if($this->ligada == true) {
+			echo "A Lampada está ligada!";
+		} else {
+			echo "Alampada está desligada!";
+		}
+	}
+}
+
+$lampada1 = new Lampada();
+$lampada1-> observar();
+$lampada1-> ligar();
+$lampada1-> desligar();
+
+
