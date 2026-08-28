@@ -1,0 +1,34 @@
+<?php
+
+class Funcionario {
+    protected string $nome;
+    protected float $salarioBase;
+
+    public function __construct(string $nome, float $salarioBase) { 
+        $this->nome = $nome;
+        $this->salarioBase = $salarioBase; 
+    }
+
+    public function calcularSalario(): float {
+        return $this->salarioBase;
+    }
+}
+
+class Gerente extends Funcionario {
+    private float $bonus;
+
+    public function __construct(string $nome, float $salarioBase, float $bonus) {
+        parent::__construct($nome, $salarioBase);
+        $this->bonus = $bonus;
+    }
+
+    public function calcularSalario(): float {
+        return $this->salarioBase + $this->bonus;
+    }
+}
+
+$funcionario = new Funcionario("João", 3000); 
+$gerente = new Gerente("Maria", 5000, 1500);
+
+echo "Salário do funcionário: R$" . $funcionario->calcularSalario() . "\n"; 
+echo "Salário do gerente: R$" . $gerente->calcularSalario() . "\n";
