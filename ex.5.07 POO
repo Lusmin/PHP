@@ -1,0 +1,34 @@
+<?php
+
+class Livro {
+    private string $titulo;
+    private string $autor;
+    private bool $disponivel = true;
+
+    public function __construct(string $titulo, string $autor) {
+        $this->titulo = $titulo;
+        $this->autor = $autor;
+    }
+
+    public function emprestar(): void {
+        
+        if ($this->disponivel) { 
+            $this->disponivel = false; 
+            echo "Livro '{$this->titulo}' emprestado com sucesso!\n";
+        } else {
+            echo "Erro: o livro '{$this->titulo}' já está emprestado.\n";
+        }
+    }
+
+    public function devolver(): void {
+        $this->disponivel = true; 
+        echo "Livro '{$this->titulo}' devolvido com sucesso!\n";
+    }
+}
+
+$livro = new Livro("O Hobbit", "J.R.R. Tolkien");
+
+$livro->emprestar(); 
+$livro->emprestar();
+$livro->devolver(); 
+$livro->emprestar();
