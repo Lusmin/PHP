@@ -1,0 +1,23 @@
+<?php
+
+class Livro {
+	public $titulo;
+	public $autor;
+	public $paginas;
+}
+
+$livro1 = new Livro();
+
+$livro1->titulo = "A Hora da Estrela";
+$livro1->autor = "Clarice Lispector";
+$livro1->paginas = 88;
+
+$livro2 = new Livro();
+
+$livro2->titulo = "Harry Potter e o Prisioneiro de Azkaban";
+$livro2->autor = "Rowling J.K.";
+$livro2->paginas = 384;
+
+echo "O livro " . $livro1->titulo . " da autora " . $livro1->autor . " tem " . "$livro1->paginas" . " páginas". "\n" ;
+echo "O livro " . $livro2->titulo . " da autora " . $livro2->autor . " tem " . "$livro2->paginas" . " páginas". "\n" ;
+
