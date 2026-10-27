@@ -1,0 +1,5 @@
+.header {
+    background-image: url(https://ps.w.org/dominant-color-images/assets/banner-1544x500.png?rev=3098225);
+    background-size: cover;
+    background-position: center;
+};
