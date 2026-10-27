@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h2 class="h2-header">Transformamos suas ideias em aplicativos, sites e layouts de alto impacto.</p>
+        <h4 class="h4-header">Desenvolvimento sob medida e design intuitivo para alavancar a presença digital do seu negocio</h4>
+        <button class="button-header" type="button" commandfor="orcamento" command="show-modal" style="font-size: larger;">ORÇAMENTO</button>
+        <p><button class="button2" type="button" commandfor="orcamento" command="show-modal" style="font-size: small;">Falar com especialista</button></p>
+    </header>
+</body>
+</html>
+<dialog id="orcamento">bah <button type="button" commandfor="orcamento" command="close">bah fecha</button></dialog>
+<body>
+    <h1 style="text-align: center;">O que fazemos</h1>
+    <h3>Aplicativos mobile</h3>
+        <h4>IOS e Andoid</h4>
+        <p>Aplicativos mobile</p>
+    <h3>Criação de sites</h3>
+        <h4>E-commerce e Lnading Pages</h4>
+        <p>Criação de sites para comercios, pages e ambientes</p>
+    <h3>Design & Layouts (UL/UX)</h3>
+        <h4>Prototipos e identidade visual</h4>
+        <p>Design e identidade de design</p>
+</body>
+<body>
+    <h1>Nosso Portfolio</h1>
+</body>
+<body>
+    <h1>O que dizem nossos cLientes</h1>
+</body>
+<body>
+    <h1>Pronto para tirar seu projeto do papel?</h1>
+    <button type="button" commandfor="orcamento" command="show-modal" style="font-size: larger;">Falar com especialista</button>
+</body>
+</body>
